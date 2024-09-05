@@ -1,0 +1,43 @@
+@import "../core/variables.styl"
+
+*
+  box-sizing border-box
+  -webkit-tap-highlight-color transparent
+
+html
+  font-size: 10px
+  max-width 100vw
+  overflow-x: hidden
+  letter-spacing: .1px
+  +media(1440px)
+    font-size: 8px
+  +media(480px)
+    font-size: 7px
+
+body
+  font 16px/1.5 $mainFont
+  color: $black
+
+a,
+button,
+input
+  &:focus
+    outline 0
+
+a
+  text-decoration none
+
+button
+  border: 0
+
+img
+  width 100%
+  height auto
+
+figure
+  margin 0
+
+.ul
+  margin 0
+  padding 0
+  list-style none
